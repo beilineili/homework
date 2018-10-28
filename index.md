@@ -7,6 +7,7 @@
 3. [03-查维基百科及数学证明](hw03)
 4. [04-查WIKI及回答ASCII等问题](hw04)
 5. [05-门](hw05)
+6. [06-ComputingComponents](hw06)
 
 ## 实验与实践
 
