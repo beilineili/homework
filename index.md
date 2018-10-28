@@ -2,11 +2,11 @@
 
 ## 课后作业
 
-1. [01-使用维基百科（Wikipedia）解释名词](hw01)
-2. [02-进制转换和使用维基百科解释名词，翻译单词](hw02)
-3. [03-查维基百科及数学证明](hw03)
-4. [04-查WIKI及回答ASCII等问题](hw04)
-5. [05-门](hw05)
+1. [01-Introduction](hw01)
+2. [02-Number System](hw02)
+3. [03-Data Representation I](hw03)
+4. [04-Data Representation II](hw04)
+5. [05-Gates and Circuits](hw05)
 6. [06-ComputingComponents](hw06)
 
 ## 实验与实践
