@@ -8,6 +8,7 @@
 4. [04-Data Representation II](hw04)
 5. [05-Gates and Circuits](hw05)
 6. [06-ComputingComponents](hw06)
+7. [07-Programming Barely](hw07)
 
 ## 实验与实践
 
