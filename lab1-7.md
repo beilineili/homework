@@ -13,8 +13,6 @@
 
 #### <a href="#游戏设计">游戏设计</a>
 
-#### <a href="#制作步骤">制作步骤</a>
-
 #### <a href="#最终效果">最终效果</a>
 
 
@@ -31,7 +29,7 @@ Construct 2：https://www.scirra.com/construct2
 
 ### 游戏玩法：
 
-在游戏中，玩家不仅需要方向键移动、鼠标转身，躲避高等数学、c语言的追杀，用手中武器击杀他们，还要担心脚下是否有不能被杀死的软件工程导论，否则将体验一波踩雷的感觉。杀死足够数量的怪物即可得到高绩点，成为大佬。（这是不可能的）
+在游戏中，玩家不仅需要方向键移动、鼠标转身，躲避高等数学（怪物有5点血）、c语言（1点血）的追杀，用手中武器击杀他们，还要担心脚下是否有不能被杀死的软件工程导论（最难搞的怪物），否则将体验一波踩雷的感觉。杀死足够数量的怪物即可得到高绩点，成为大佬。（这是不可能的）否则就会死亡，游戏结束。
 
 ### 制作顺序：
 
@@ -73,17 +71,17 @@ Construct 2：https://www.scirra.com/construct2
 
 
 
-|            monster2             |
-| :-----------------------------: |
-|                                 |
-|         bullet，player          |
-| 1.不会移动 2.被bullet击中后消失 |
+|                           monster2                           |
+| :----------------------------------------------------------: |
+| ![d4628535e5dde711c59e4285a7efce1b9d166170_副本.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/d4628535e5dde711c59e4285a7efce1b9d166170_%E5%89%AF%E6%9C%AC.png?raw=true) |
+|                        bullet，player                        |
+|               1.不会移动 2.被bullet击中后消失                |
 
 
 
 |                           monster3                           |
 | :----------------------------------------------------------: |
-|                                                              |
+| ![timg (2).png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/timg%20(2).png?raw=true) |
 |                            player                            |
 | 1.不会移动 2.不会被bullet击中消失 3.大学生撞到他之后会当场去世 |
 
@@ -91,24 +89,25 @@ Construct 2：https://www.scirra.com/construct2
 
 |                            player                            |
 | :----------------------------------------------------------: |
-|                                                              |
+| ![timg_副本.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/timg_%E5%89%AF%E6%9C%AC.png?raw=true) |
 |                       bullet，monster                        |
 | 1.能由方向键和鼠标控制移动和转向 2.碰到monster会消失，游戏结束 |
 
-|                explode                |
-| :-----------------------------------: |
-|                                       |
-|            bullet，monster            |
-| bullet和monster相撞后出现，并渐变消失 |
+|                           explode                            |
+| :----------------------------------------------------------: |
+| ![timg (2)_副本.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/timg%20(2)_%E5%89%AF%E6%9C%AC.png?raw=true) |
+|                       bullet，monster                        |
+|            bullet和monster相撞后出现，并渐变消失             |
 
 
 
 #### 最终效果：
 
-![23-10-49-10-13-6325.gif](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/23-10-49-10-13-6325.gif?raw=true)
+##### 1.大学生被高等数学碰到后当场死亡(不可能成为大佬的)
+
+![游戏1.gif](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/%E6%B8%B8%E6%88%8F1.gif?raw=true)![游戏2.gif](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/%E6%B8%B8%E6%88%8F2.gif?raw=true)
 
 
 
-![23-11-31-10-13-6462.gif](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/23-11-31-10-13-6462.gif?raw=true)
+虽然勇猛地击杀了一个高等数学，但是不小心碰到了软件工程导致玩家死亡，游戏结束
 
-快去制作你自己的游戏试试看吧。
