@@ -10,7 +10,7 @@
 5. [05-Gates and Circuits](hw05)
 6. [06-ComputingComponents](hw06)
 7. [07-Programming Barely](hw07)
-
+8. [08-Problem Solvingand Algorithm Design（top-down method](hw08)
 ## 实验与实践
 
 1. [01-人工智能的未来](lab1-1)
@@ -21,7 +21,7 @@
 6. [06-X现象背后的IT规律](lab06)
 7. [07-机器语言实验报告](lab3-2)
 8. [08-X游戏设计](lab1-7)
-9. [09-洗衣机算法设计](lab09)
+9. [09-洗衣机算法设计](lab1-8)
 10. [10-python 编程实验报告](lab10)
 11. [11-IT伦理与道德研究](lab11)
 12. [12-我喜欢的X语言](lab12)
