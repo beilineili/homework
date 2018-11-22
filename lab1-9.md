@@ -16,6 +16,12 @@
 
 
 
+​       从网络搜索上看，想要破解百度网盘限速问题的人很多，可见许多用户对此都是感到不满的。![百度网盘5.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%985.png?raw=true)
+
+
+
+
+
 #####        按常理来说，软件收费，采用会员制度是可以理解的，然而百度网盘为了迎合中国客户的心理，没有要求所有人收费，而是采取交费了的人全速下载，没交钱的用户限速下载的方式来节省成本。
 
 ![百度网盘2.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%982.png?raw=true)
