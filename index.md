@@ -12,6 +12,7 @@
 7. [07-Programming Barely](hw07)
 8. [08-Problem Solvingand Algorithm Design（top-down method](hw08)
 9. [09-Problem Solving（Object Oriented Design）](hw09)
+10. [10-Abstract Data Types and Algorithms](hw10)
 ## 实验与实践
 
 1. [01-人工智能的未来](lab1-1)
@@ -27,7 +28,7 @@
 11. [11-IT伦理与道德研究(百度网盘)+几种排序介绍](lab1-9)
 12. [12-我喜欢的X语言](lab12)
 13. [13-贪吃蛇实验报告](lab13)
-14. [14-IT风投之我见](lab14)
+14. [14-IT风投之我见](lab1-10)
 15. [15-智能蛇实验报告](lab15)
 16. [16-互联网时代的盈利模式](lab16)
 
