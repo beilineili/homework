@@ -42,5 +42,71 @@ codeblocks中编译运行结果，可以实时记录键盘输入了什么，解�
 
 
 
+流畅度max，体验极好
+
+![bandicam 2018-12-16 17-31-02-522 (1).gif](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/bandicam%202018-12-16%2017-31-02-522%20(1).gif?raw=true)
+
+
+
+
+
 ## 四、编写贪吃蛇智能算法
+
+我们希望能够造出一条只要不死就能自动走的蛇，它能够计算怎样走去吃食物距离最小。
+
+
+
+##### 1.和之前一样，先写好伪代码：（决定蛇行走的方向的函数）
+
+```
+Hx,Hy: the position of the head
+Fx,Fy: the position of the food
+
+function Where_To_Go_Next(Hx,Hy,Fx,Fy) {
+
+	move[3]={'A','S','D','W'} is the direction that the snake can go
+	
+	distance[3]={0,0,0,0} is the distance between the food and the snake
+
+	calculate the distance from the head to the food separately
+	
+	IF Hx-1!=BLANK or Hy!=BLANK THEN
+		distance=9999
+	ELSE 
+		distance=|Fx – (Hx-1)| + |Fy – Hy|
+
+	return the index of the smallest number of distance
+	
+	return moveable[p]
+
+}
+```
+
+
+
+##### 2.智能蛇的程序框架
+
+```c
+输出字符矩阵
+	WHILE not 游戏结束 DO
+        wait(time)
+		ch＝whereGoNext(Hx,Hy,Fx,Fy)
+		CASE ch DO
+		‘A’:左前进一步，break 
+		‘D’:右前进一步，break    
+		‘W’:上前进一步，break    
+		‘S’:下前进一步，break    
+		END CASE
+		输出字符矩阵
+	END WHILE
+	输出 Game Over!!! 
+```
+
+
+
+##### 3.c语言实现：
+
+```c
+
+```
 

@@ -32,6 +32,9 @@ void extent();   //蛇吃食物后变长
 int iswin(int snakeLength); //判断是否胜利 
 int isgameover();  //判断游戏是否结束 
 
+char where_to_move(int Hx,int Hy,int Fx,int Fy);
+// get the best direction to move 
+int get_min(const int*distance);
 
      //画出游戏区域 
 char zone[12][15]=
@@ -115,6 +118,57 @@ int kbhit(void)
         return 0;
 }
 
+char where_to_move(int Hx,int Hy,int Fx,int Fy) {
+	char moveable[4]={'A','S','D','W'};
+	int distance[4]={0,0,0,0};
+	int index=0;
+	
+	if(map[Hy][Hx-1]==BLACK_CELL) {
+		distance[0]=abs((Fx-(Hx-1)))+abs((Fy-Hy));
+	}
+	else {
+		distance[0]=999;
+	}
+	
+	if(map[Hy+1][Hx]==BLACK_CELL) {
+		distance[1]=abs(Fx-Hx)+abs(Fy-(Hy+1));
+	} 
+	else {
+		distance[1]=999;
+	}
+	if(map[Hy][Hx+1]==BLACK_CELL) {
+		distance[2]=abs(Fx-(Hx+1))+abs(Fy-Hy);
+	}
+	else {
+		distance[2]=999;
+	}
+	if(map[Hy-1][Hx]==BLACK_CELL) {
+		distance[3]=abs(Fx-Hx)+abs(Fy-(Hy-1));
+	}
+	else {
+		distance[3]=999;
+	}
+
+	
+	index=get_min(distance);
+	
+	return moveable[index];
+}
+
+int get_min(const int*distance) {
+	int i=0;
+	int min=distance[0];
+	int index=0;
+	
+	for(i=1;i<4;i++) {
+		if(min>distance[i]&&distance[i]!=999) {
+			min=distance[i];
+			index=i;
+		}
+	}
+	
+	return index;
+}
 int main()
 {
     //设置终端进入非缓冲状态
@@ -126,8 +180,8 @@ int main()
 	 Printzone();
      
 	 while(1){ 
-     	scanf("%c",&ch);
-     	switch(ch){  //通过输入wasd来控制蛇的移动 
+     	smart=where_to_move(int Hx,int Hy,int Fx,int Fy);
+     	switch(smart){  //通过输入wasd来控制蛇的移动 
      		case 'a':
      			snakemove(-1,0);
      			break;
