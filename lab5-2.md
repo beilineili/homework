@@ -30,7 +30,7 @@
 
 #### 2、实现 kbhit()
 
-codeblocks中编译运行结果，可以记录键盘输入了什么。
+codeblocks中编译运行结果，可以实时记录键盘输入了什么，解决了原函数中按一次键盘就要按一次回车才能进行下一步的尴尬操作。
 
 ![Snipaste_2018-12-16_15-54-28.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/Snipaste_2018-12-16_15-54-28.png?raw=true)
 
