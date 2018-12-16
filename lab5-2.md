@@ -160,3 +160,10 @@ int min(const int*distance) {
 }
 ```
 
+![智能蛇.png](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/images/%E6%99%BA%E8%83%BD%E8%9B%87.png?raw=true)
+
+好吧其实这条蛇一点都不智能甚至撞墙了。。
+
+
+
+##### ​     在这次作业中我比较大的收获是用虚拟机在linux进行c语言编译和运行，学会了很多新姿势，有些函数在windows系统里是没有的。
