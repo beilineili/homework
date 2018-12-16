@@ -64,9 +64,9 @@ Fx,Fy: the position of the food
 
 function Where_To_Go_Next(Hx,Hy,Fx,Fy) {
 
-	move[3]={'A','S','D','W'} is the direction that the snake can go
+	move[4]={'a','s','d','w'} is the direction that the snake can go
 	
-	distance[3]={0,0,0,0} is the distance between the food and the snake
+	distance[4]={0,0,0,0} is the distance between the food and the snake
 
 	calculate the distance from the head to the food separately
 	
@@ -107,6 +107,56 @@ function Where_To_Go_Next(Hx,Hy,Fx,Fy) {
 ##### 3.c语言实现：
 
 ```c
+char where_to_move(int Hx,int Hy,int Fx,int Fy) {
+	char move[4]={'a','s','d','w'};
+	int distance[4]={0,0,0,0};
+	int index=0;
+	
+	if(zone[Hy][Hx-1]==SNAKE_AREA) {
+		distance[0]=abs((Fx-(Hx-1)))+abs((Fy-Hy));
+	}
+	else {
+		distance[0]=999;
+	}
+	
+	if(zone[Hy+1][Hx]==SNAKE_AREA) {
+		distance[1]=abs(Fx-Hx)+abs(Fy-(Hy+1));
+	} 
+	else {
+		distance[1]=999;
+	}
+	if(zone[Hy][Hx+1]==SNAKE_AREA) {
+		distance[2]=abs(Fx-(Hx+1))+abs(Fy-Hy);
+	}
+	else {
+		distance[2]=999;
+	}
+	if(zone[Hy-1][Hx]==SNAKE_AREA) {
+		distance[3]=abs(Fx-Hx)+abs(Fy-(Hy-1));
+	}
+	else {
+		distance[3]=999;
+	}
 
+	
+	index=min(distance);
+	
+	return move[index];
+}
+
+int min(const int*distance) {
+	int i=0;
+	int min=distance[0];
+	int index=0;
+	
+	for(i=1;i<4;i++) {
+		if(min>distance[i]&&distance[i]!=999) {
+			min=distance[i];
+			index=i;
+		}
+	}
+	
+	return index;
+}
 ```
 
