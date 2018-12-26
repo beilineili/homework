@@ -1,4 +1,4 @@
-https://github.com/beilineili/huangjzmhomework/blob/gh-pages/python计算器实验.pdf	
+[计算器实验.pdf](https://github.com/beilineili/huangjzmhomework/blob/gh-pages/python)
 
 
 
